@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 31839622}
   - component: {fileID: 31839621}
   - component: {fileID: 31839620}
-  - component: {fileID: 31839623}
   m_Layer: 0
   m_Name: Exit
   m_TagString: Untagged
@@ -220,19 +219,6 @@ Transform:
   m_Father: {fileID: 1401506310}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &31839623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31839619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9242f93970a1b4741a9e697d1b787855, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCharacterSelect: 0
 --- !u!1 &455473267
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +369,6 @@ GameObject:
   - component: {fileID: 487020450}
   - component: {fileID: 487020449}
   - component: {fileID: 487020448}
-  - component: {fileID: 487020451}
   m_Layer: 0
   m_Name: Character Select
   m_TagString: Untagged
@@ -469,19 +454,6 @@ Transform:
   m_Father: {fileID: 1401506310}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &487020451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487020447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9242f93970a1b4741a9e697d1b787855, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCharacterSelect: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +641,6 @@ GameObject:
   - component: {fileID: 1237238822}
   - component: {fileID: 1237238821}
   - component: {fileID: 1237238820}
-  - component: {fileID: 1237238823}
   m_Layer: 0
   m_Name: Level Select
   m_TagString: Untagged
@@ -755,19 +726,6 @@ Transform:
   m_Father: {fileID: 1401506310}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1237238823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237238819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9242f93970a1b4741a9e697d1b787855, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCharacterSelect: 0
 --- !u!1 &1243828521
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,7 +833,6 @@ GameObject:
   - component: {fileID: 1258279798}
   - component: {fileID: 1258279797}
   - component: {fileID: 1258279796}
-  - component: {fileID: 1258279799}
   m_Layer: 0
   m_Name: Options
   m_TagString: Untagged
@@ -961,19 +918,6 @@ Transform:
   m_Father: {fileID: 1401506310}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1258279799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1258279795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9242f93970a1b4741a9e697d1b787855, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCharacterSelect: 0
 --- !u!1 &1401506309
 GameObject:
   m_ObjectHideFlags: 0
