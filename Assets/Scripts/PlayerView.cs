@@ -6,4 +6,9 @@ public class PlayerView : MonoBehaviour
 {
     public PlayerModel model;
     public PlayerController controller;
+
+    private void FixedUpdate()
+    {
+        transform.position = model.position;
+    }
 }
