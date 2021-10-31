@@ -608,9 +608,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 709456366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0002325e4575fa46924f622f0f487df, type: 3}
+  m_Script: {fileID: 11500000, guid: 9213f260b8ff25e40b4663ddbcfba078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Arquero: {fileID: 0}
+  Mago: {fileID: 0}
+  Caballero: {fileID: 0}
+  Sacerdote: {fileID: 0}
+  counter: 0
 --- !u!114 &709456369
 MonoBehaviour:
   m_ObjectHideFlags: 0
