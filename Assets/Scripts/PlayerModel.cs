@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PlayerModel : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Vector3 position;
+   
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        position = transform.position;
     }
 }
