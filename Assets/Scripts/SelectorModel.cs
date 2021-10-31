@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectorModel : MonoBehaviour
 {
-    public GameObject Arquero;
-    public GameObject Mago;
-    public GameObject Caballero;
-    public GameObject Sacerdote;
+    public Image Arquero;
+    public Image Mago;
+    public Image Caballero;
+    public Image Sacerdote;
     public int counter;
-
 }
